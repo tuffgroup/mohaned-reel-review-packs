@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "1.0",
+  "references": {
+    "6a07a4f0-38eb-4987-a6e4-68d1c9af865b": {
+      "status": "Ready",
+      "fingerprint": "61883fd985ef76b4b7388776ba00a9c8174e7cea9a5bc2995b7f2d71f5370077",
+      "etag": "\"1b65d6a319adea36b10827ad11ff622b\"",
+      "transcriptHash": "64bc4deec008343abb1844586ebe2e6dc95ae5b2d9521feb80ecfeec789d736b",
+      "generatedAt": "2026-09-05T02:16:48.852936Z",
+      "frameCount": 59,
+      "lastVerifiedAt": "2026-09-05T02:46:57.908929+00:00",
+      "sourceVideoSha256": "03a6ba43759372a702446a20d6920521ce5b58f9de0e10e2e51cb6f4e738a36d",
+      "sourceTranscript": "There is nothing you can do to make them like you. I used to want to please the world until I realized what made them happy, made me sad, and that's an unnegotiable. I see it's probably easier to not like me because I represent myself unapologetically. I used to hate people like that, that is until I realized they just didn't get it. You know how long it takes to like somebody? Like really like somebody? If you're anything like me, it probably takes a while. I wouldn't want anyone to like me if their distance to dislike me is shorter. I'll see you around for more stories.",
+      "reusedExistingPack": true
+    },
+    "1a8a20da-2e59-4fff-a3a3-45e0d4fadca0": {
+      "status": "Ready",
+      "fingerprint": "ef4f5463db012cb796f2cf877b6b0ae2cab24b491bce743c82cb2ffb4194c1b1",
+      "etag": "\"22cce82618450928779c6aa513cca56c\"",
+      "transcriptHash": "b5555bf2bb78011bc544d9a48effd260117c3d67297c2e4454fdc9819a2eeed1",
+      "generatedAt": "2026-09-05T02:19:50.770598Z",
+      "frameCount": 85,
+      "lastVerifiedAt": "2026-09-05T02:46:57.908929+00:00",
+      "sourceVideoSha256": "e9caddded79d03bbf16e11363a4c23757ea103bab978bad2bf8425d5525f65f0",
+      "sourceTranscript": "The people who choose to be alone, those people, those people are not alone because no one wants to be their friend and no one likes them. And no, they're alone because they chosen peace. Because everything that they ever trusted, everything they ever poured into, everyone they've ever tried to love, has disappointed. Has hurt them, has misunderstood them, has minimized them, has used them. Okay? So when you have gotten to a point in your life where you're tired of being mistreated, where you're tired of tolerating behaviors that you don't need to tolerate anymore. When you have gotten to a point in your life where you're tired, you're tired, you're tired, you're tired of neglecting yourself. You're tired of being there for everyone when you are broken. You're broken and you're holding everyone's hand. You're broken and you're smiling for everyone, you're broken, and you're healing people.",
+      "reusedExistingPack": true
+    }
+  },
+  "lastSuccessfulPollDate": "2026-09-05",
+  "processor": "GitHub Actions standard public runner",
+  "autoRetry": "Next scheduled poll"
+}
