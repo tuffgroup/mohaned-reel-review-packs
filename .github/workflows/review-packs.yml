@@ -4,7 +4,7 @@ on:
     - cron: '7,22,37,52 * * * *'
   workflow_dispatch:
   push:
-    paths: ['processor/**', 'bootstrap*.zip', '.github/workflows/review-packs.yml']
+    paths: ['processor/**', '*-tests.py', 'browser-qa.py', 'bootstrap*.zip', '.github/workflows/review-packs.yml']
 permissions:
   contents: write
   pages: write
@@ -30,6 +30,9 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y -qq ffmpeg fonts-dejavu-core
           python -m pip install --quiet --no-cache-dir reportlab==4.4.3 Pillow==11.3.0
+      - name: Verify new video and update behavior with synthetic media
+        if: github.event_name != 'schedule'
+        run: python processor-tests.py
       - name: Poll all source records and generate only stale packs
         run: python processor/sync.py
       - name: Store static files and factual polling status
@@ -52,3 +55,9 @@ jobs:
           if [ '${{ steps.publish.outputs.changed }}' = 'true' ] || [ '${{ github.event_name }}' = 'workflow_dispatch' ] || [ "$status" = 'errored' ]; then
             gh api --method POST repos/tuffgroup/mohaned-reel-review-packs/pages/builds --silent
           fi
+      - name: Verify the public Site with a fresh anonymous browser
+        if: github.event_name != 'schedule'
+        run: |
+          python -m pip install --quiet --no-cache-dir playwright==1.55.0
+          python -m playwright install --with-deps chromium
+          python browser-qa.py
