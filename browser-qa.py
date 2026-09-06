@@ -1,5 +1,6 @@
 """Public browser QA in a fresh, unauthenticated Chromium context."""
 import asyncio
+from urllib.parse import urljoin
 from playwright.async_api import async_playwright
 SITE='https://mohaned-reel-reference-lab.blsi.chatgpt.site'
 IDS=['6a07a4f0-38eb-4987-a6e4-68d1c9af865b','1a8a20da-2e59-4fff-a3a3-45e0d4fadca0']
@@ -27,12 +28,24 @@ async def main():
     await image.scroll_into_view_if_needed()
     await page.wait_for_function('(img)=>img.complete && img.naturalWidth>0',arg=await image.element_handle())
     assert await image.evaluate('(img)=>img.naturalWidth>0 && img.naturalHeight>0'),role
+   analysis_link=page.get_by_role('link',name='Analysis JSON',exact=True)
+   analysis_href=await analysis_link.get_attribute('href')
+   assert analysis_href
+   analysis_response=await context.request.get(urljoin(page.url,analysis_href))
+   assert analysis_response.status==200,analysis_response.status
+   source_scene_changes=(await analysis_response.json()).get('sceneChanges',[])
+   assert isinstance(source_scene_changes,list)
    scene_images=evidence.locator('[data-evidence-role="scene-change"] img')
-   assert await scene_images.count()>0
+   assert await scene_images.count()==len(source_scene_changes)
+   expected_scene_urls={scene['imageUrl'] for scene in source_scene_changes}
+   rendered_scene_urls=set()
    for index in range(await scene_images.count()):
     image=scene_images.nth(index)
     await image.scroll_into_view_if_needed()
     await page.wait_for_function('(img)=>img.complete && img.naturalWidth>0',arg=await image.element_handle())
+    assert await image.evaluate('(img)=>img.naturalWidth>0 && img.naturalHeight>0')
+    rendered_scene_urls.add(urljoin(page.url,await image.get_attribute('src')))
+   assert rendered_scene_urls==expected_scene_urls
    storyboard=evidence.locator('[data-full-storyboard]')
    await storyboard.locator('summary').click()
    storyboard_images=storyboard.locator('img[data-storyboard-frame]')
