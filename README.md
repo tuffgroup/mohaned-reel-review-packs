@@ -4,7 +4,7 @@ Permanent read-only processor for [Mohaned Reel Reference Lab](https://mohaned-r
 
 ## Automatic operation
 
-The public GitHub Actions workflow polls the Site every 15 minutes (minutes 7, 22, 37 and 52). GitHub schedules are best effort and may be delayed. A manual run is available under Actions. Only standard `ubuntu-24.04` runners are used; the workflow refuses to run when this repository is private.
+The public GitHub Actions workflow accepts an authenticated `repository_dispatch` event named `reference_ready` with only `client_payload.reference_id`, then processes that reference immediately. The 15-minute schedule (minutes 7, 22, 37 and 52) remains enabled as a best-effort recovery scan, and a manual run is available under Actions. Only standard `ubuntu-24.04` runners are used; the workflow refuses to run when this repository is private.
 
 The processor checks video ETags and exact transcript content, downloads changed sources, and uses ffprobe, ffmpeg and ReportLab to build timestamped JPEG frames, `review.pdf`, `analysis.json` and `ai.txt`. Existing unchanged packs are reused. The two initial local packs were backfilled without regenerating their PDFs or frames.
 
@@ -14,9 +14,9 @@ No AI analysis runs, and review state is never updated. Untimed transcripts rema
 
 For a Reference Lab UUID, use:
 
-`https://tuffgroup.github.io/mohaned-reel-review-packs/references/{id}/review.pdf`
+`https://tuffgroup.github.io/mohaned-reel-review-packs/references/{id}/review.html`
 
-Replace `review.pdf` with `analysis.json`, `ai.txt` or a frame path listed in the JSON. [packs.json](https://tuffgroup.github.io/mohaned-reel-review-packs/packs.json) reports pack status. The Site derives these URLs without public write access or a GitHub credential.
+Replace `review.html` with `review.pdf`, `analysis.json`, `ai.txt` or a frame path listed in the JSON. [packs.json](https://tuffgroup.github.io/mohaned-reel-review-packs/packs.json) reports pack status. The Site derives these URLs without public write access or a GitHub credential.
 
 ## Free capacity and failure behavior
 
