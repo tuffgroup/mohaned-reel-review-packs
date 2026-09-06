@@ -19,6 +19,27 @@ async def main():
    response=await page.goto(SITE+'/references/'+rid)
    assert response.status==200
    assert 'noindex' in await page.locator('meta[name="robots"]').get_attribute('content')
+   evidence=page.locator('[data-inline-visual-evidence]')
+   assert await evidence.count()==1
+   for role in ['opening','middle','ending']:
+    image=evidence.locator(f'[data-evidence-role="{role}"] img')
+    assert await image.count()==1,role
+    await image.scroll_into_view_if_needed()
+    await page.wait_for_function('(img)=>img.complete && img.naturalWidth>0',arg=await image.element_handle())
+    assert await image.evaluate('(img)=>img.naturalWidth>0 && img.naturalHeight>0'),role
+   scene_images=evidence.locator('[data-evidence-role="scene-change"] img')
+   assert await scene_images.count()>0
+   for index in range(await scene_images.count()):
+    image=scene_images.nth(index)
+    await image.scroll_into_view_if_needed()
+    await page.wait_for_function('(img)=>img.complete && img.naturalWidth>0',arg=await image.element_handle())
+   storyboard=evidence.locator('[data-full-storyboard]')
+   await storyboard.locator('summary').click()
+   storyboard_images=storyboard.locator('img[data-storyboard-frame]')
+   assert await storyboard_images.count()>3
+   final_storyboard_image=storyboard_images.last
+   await final_storyboard_image.scroll_into_view_if_needed()
+   await page.wait_for_function('(img)=>img.complete && img.naturalWidth>0',arg=await final_storyboard_image.element_handle())
    await asyncio.wait_for(page.locator('video').evaluate('(v)=>{v.muted=true;return v.play()}'),30)
    await page.wait_for_function('document.querySelector("video").currentTime > 0.3')
    assert await page.locator('video').evaluate('(v)=>v.videoWidth>0 && !v.error')
@@ -30,7 +51,7 @@ async def main():
     asset=await context.request.get(href if href.startswith('http') else SITE+href)
     assert asset.status==200,(name,asset.status)
     assert len(await asset.body())>100
-   print('PASS fresh anonymous browser: page, original video playback and three Review Pack links',rid,flush=True)
+   print('PASS fresh anonymous browser: inline evidence images, full storyboard, original video playback and Review Pack links',rid,flush=True)
   for path in ['/settings','/admin']:
    response=await context.request.get(SITE+path,max_redirects=0)
    assert response.status in [302,303,307,308,401,403,404],(path,response.status)
