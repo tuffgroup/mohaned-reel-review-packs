@@ -25,9 +25,13 @@ def main():
    assert manifest['transcript']['segments'] is None
    assert all(f['transcriptSegment'] is None for f in manifest['frames'])
    assert (pack/'review.pdf').read_bytes().startswith(b'%PDF')
+   page=(pack/'review.html').read_text();assert 'Transcript timing is unavailable' in page and record['transcript'] in page and '<script' not in page
    with Image.open(pack/'frames/000000.jpg') as im:assert im.size==(720,406)
    initial=(pack/'review.pdf').read_bytes();downloads.clear();assert sync.sync()==0 and not downloads
    assert (pack/'review.pdf').read_bytes()==initial
+   (pack/'review.html').unlink();downloads.clear();assert sync.sync(rid)==0 and not downloads
+   assert (pack/'review.html').exists() and (pack/'review.pdf').read_bytes()==initial
+   downloads.clear();assert sync.sync(rid)==0 and not downloads
    record['internal_title']='Metadata-only change';assert sync.sync()==0 and not downloads
    record['transcript']='Changed transcript exactly.';assert sync.sync()==0 and len(downloads)==1
    assert json.loads((pack/'analysis.json').read_text())['transcript']['text']==record['transcript']
@@ -39,5 +43,5 @@ def main():
     except RuntimeError:pass
    assert (pack/'review.pdf').read_bytes()==current and source.exists()
    state=json.loads((root/'docs/packs.json').read_text());assert state['references'][rid]['status']=='Failed'
- print('PASS: new video, unchanged skip, metadata-only skip, transcript change, video replacement, failure preservation, timing honesty, real JPEG/PDF generation')
+ print('PASS: new video, complete static HTML, HTML-only backfill, duplicate targeted dispatch, unchanged skip, metadata-only skip, transcript change, video replacement, failure preservation, timing honesty, real JPEG/PDF generation')
 if __name__=='__main__':main()

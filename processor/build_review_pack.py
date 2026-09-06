@@ -1,7 +1,7 @@
 """Build stored evidence derivatives from a reference record and its original MP4.
 No AI calls; no source writes. Requires ffmpeg, ffprobe, reportlab and Pillow.
 """
-import argparse,bisect,hashlib,json,math,re,subprocess,tempfile
+import argparse,bisect,hashlib,html,json,math,re,subprocess,tempfile
 from pathlib import Path
 from datetime import datetime,timezone
 from xml.sax.saxutils import escape
@@ -45,6 +45,24 @@ def source_segments(record):
             result.append({'start':s['start'],'end':s['end'],'text':s['text'],'timing':s.get('timing','source_segment')})
     return result or None
 
+def build_review_html(manifest,out):
+    """Render a static evidence storyboard from an existing manifest and frames."""
+    def esc(value):return html.escape(str(value if value is not None else 'Not available'),quote=True)
+    transcript=manifest.get('transcript') or {};segments=transcript.get('segments') or []
+    timing=transcript.get('timing') if segments else 'unavailable'
+    frames=[]
+    for frame in manifest.get('frames') or []:
+        image_name=Path(frame['imageUrl']).name
+        if not (out/'frames'/image_name).is_file():raise ValueError('Missing storyboard frame')
+        speech=frame.get('transcriptSegment') if timing!='unavailable' else None
+        frames.append(f'''<figure><img src="frames/{esc(image_name)}" alt="Video frame at {esc(frame['timestampLabel'])}" loading="lazy"><figcaption><strong>{esc(frame['timestampLabel'])}</strong>{' <span class="scene">Scene change</span>' if frame.get('sceneChange') else ''}<p>{esc('Source-timed transcript segment: '+speech) if speech else 'Transcript timing unavailable; no speech is assigned to this frame.'}</p></figcaption></figure>''')
+    links=[('Reference Lab page',manifest.get('referencePageUrl')),('Original Instagram post',manifest.get('sourceUrl')),('Original video',manifest.get('videoUrl')),('Visual Review PDF','review.pdf'),('Analysis JSON','analysis.json'),('AI Text','ai.txt')]
+    nav=''.join(f'<a href="{esc(url)}">{esc(label)}</a>' for label,url in links if url)
+    document=f'''<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow,noarchive"><title>{esc(manifest.get('title') or 'Reel')} - Visual Review</title><style>
+:root{{--bg:#f4f1ea;--paper:#fff;--ink:#171714;--muted:#6b675f;--line:#d9d4ca;--accent:#806032}}*{{box-sizing:border-box}}body{{margin:0;background:var(--bg);color:var(--ink);font:16px/1.55 system-ui,-apple-system,sans-serif}}main{{max-width:1200px;margin:auto;padding:32px 20px 64px}}header,.text{{background:var(--paper);border:1px solid var(--line);border-radius:14px;padding:clamp(20px,4vw,42px);margin-bottom:24px}}h1{{font:700 clamp(2rem,5vw,4.2rem)/1.05 Georgia,serif;margin:.25em 0}}h2{{font:700 1.6rem Georgia,serif}}.meta{{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px;margin:24px 0}}.meta div{{border-top:1px solid var(--line);padding-top:10px}}.meta span{{display:block;color:var(--muted);font-size:.8rem;text-transform:uppercase;letter-spacing:.08em}}nav{{display:flex;flex-wrap:wrap;gap:10px}}a{{color:var(--ink);text-decoration-thickness:1px;text-underline-offset:3px}}.grid{{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px}}figure{{margin:0;background:var(--paper);border:1px solid var(--line);border-radius:12px;overflow:hidden}}img{{display:block;width:100%;height:auto;background:#ddd}}figcaption{{padding:14px}}figcaption p{{margin:.35rem 0 0;color:var(--muted)}}.scene{{margin-left:8px;color:var(--accent);font-size:.82rem;text-transform:uppercase;letter-spacing:.06em}}.timing{{padding:12px 14px;background:#f7ecd8;border-left:4px solid var(--accent)}}.preserve{{white-space:pre-wrap;overflow-wrap:anywhere}}@media(max-width:720px){{.grid{{grid-template-columns:1fr}}main{{padding:16px 12px 40px}}}}
+</style></head><body><main><header><p>MOHANED REEL REFERENCE LAB</p><h1>{esc(manifest.get('title') or 'Untitled reference')}</h1><div class="meta"><div><span>Creator</span>{esc(manifest.get('creator'))}</div><div><span>Duration</span>{esc(manifest.get('durationSeconds'))} seconds</div><div><span>Reference ID</span>{esc(manifest.get('id'))}</div><div><span>Frames</span>{len(frames)}</div></div><nav>{nav}</nav></header><section class="text"><h2>Transcript timing</h2><p class="timing">{'Real source timing is available for transcript segments.' if timing!='unavailable' else 'Transcript timing is unavailable. Speech-to-frame timing has not been inferred.'}</p></section><section class="grid" aria-label="Timestamped storyboard">{''.join(frames)}</section><section class="text"><h2>Caption</h2><div class="preserve" dir="auto">{esc(manifest.get('caption'))}</div></section><section class="text"><h2>Full stored transcript</h2><div class="preserve" dir="auto">{esc(transcript.get('text'))}</div></section></main></body></html>'''
+    (out/'review.html').write_text(document,encoding='utf-8')
+
 def build(record,video,out,ffmpeg,ffprobe,font):
     out.mkdir(parents=True,exist_ok=True);(out/'frames').mkdir(exist_ok=True)
     probe=json.loads(command([ffprobe,'-v','error','-select_streams','v:0','-show_streams','-show_format','-of','json',str(video)]))
@@ -81,7 +99,7 @@ def build(record,video,out,ffmpeg,ffprobe,font):
     text=record.get('transcript');text=text.get('text') if isinstance(text,dict) else text
     generated=datetime.now(timezone.utc).isoformat().replace('+00:00','Z')
     creator=record.get('creator') or {};creator=(creator.get('name') or creator.get('username')) if isinstance(creator,dict) else creator
-    manifest={'schemaVersion':'1.0','id':record['id'],'slug':record['id'],'creator':creator or None,'title':record.get('internal_title'),'sourceUrl':record.get('original_instagram_url'),'referencePageUrl':base,'videoUrl':record.get('video_url'),'reviewPdfUrl':base+'/review.pdf','analysisJsonUrl':base+'/analysis.json','aiTextUrl':base+'/ai.txt','durationSeconds':duration,'caption':record.get('caption'),'transcript':{'text':text,'segments':segments,'timing':'source_segment' if segments else 'unavailable'},'frames':entries,'sceneChanges':[{'timestamp':e['timestamp'],'imageUrl':e['imageUrl']} for e in entries if e['sceneChange']],'sampling':{'first5SecondsInterval':.25,'next10SecondsInterval':.5,'remainingInterval':1,'sceneThreshold':.30,'deduplication':'Same decoded source frame is included once; scheduled samples snap to the nearest real frame.','timestampBasis':'Decoded source frame presentation timestamp relative to first frame.'},'generatedAt':generated,'generatorVersion':VERSION,'sourceVideoSha256':hashlib.sha256(video.read_bytes()).hexdigest(),'limitations':['No timed transcript was stored; frame-to-speech binding is unavailable.'] if not segments else []}
+    manifest={'schemaVersion':'1.0','id':record['id'],'slug':record['id'],'creator':creator or None,'title':record.get('internal_title'),'sourceUrl':record.get('original_instagram_url'),'referencePageUrl':base,'videoUrl':record.get('video_url'),'reviewHtmlUrl':base+'/review.html','reviewPdfUrl':base+'/review.pdf','analysisJsonUrl':base+'/analysis.json','aiTextUrl':base+'/ai.txt','durationSeconds':duration,'caption':record.get('caption'),'transcript':{'text':text,'segments':segments,'timing':'source_segment' if segments else 'unavailable'},'frames':entries,'sceneChanges':[{'timestamp':e['timestamp'],'imageUrl':e['imageUrl']} for e in entries if e['sceneChange']],'sampling':{'first5SecondsInterval':.25,'next10SecondsInterval':.5,'remainingInterval':1,'sceneThreshold':.30,'deduplication':'Same decoded source frame is included once; scheduled samples snap to the nearest real frame.','timestampBasis':'Decoded source frame presentation timestamp relative to first frame.'},'generatedAt':generated,'generatorVersion':VERSION,'sourceVideoSha256':hashlib.sha256(video.read_bytes()).hexdigest(),'limitations':['No timed transcript was stored; frame-to-speech binding is unavailable.'] if not segments else []}
     pdfmetrics.registerFont(TTFont('Evidence',str(font)))
     W,H=A3;margin=42;c=canvas.Canvas(str(out/'review.pdf'),pagesize=A3,pageCompression=1)
     c.setTitle((manifest['title'] or 'Reel')+' - Visual Review');c.setAuthor('Mohaned Reel Reference Lab')
@@ -126,6 +144,7 @@ def build(record,video,out,ffmpeg,ffprobe,font):
         footer(page);c.showPage()
     c.save()
     (out/'analysis.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
+    build_review_html(manifest,out)
     ai='MOHANED REEL REFERENCE LAB\n\n'+'\n\n'.join(f'{key}:\n{value if value is not None else "Not available"}' for key,value in [('REFERENCE',manifest['title']),('CREATOR',creator),('DURATION',str(duration)+' seconds'),('REFERENCE PAGE',base),('ORIGINAL VIDEO',manifest['videoUrl']),('VISUAL REVIEW PDF',manifest['reviewPdfUrl']),('ANALYSIS JSON',manifest['analysisJsonUrl']),('TRANSCRIPT',text),('TRANSCRIPT TIMING','Source segments available' if segments else 'Unavailable; do not infer frame-to-speech alignment'),('CAPTION',manifest['caption'])])+'\n'
     (out/'ai.txt').write_text(ai)
     print(json.dumps({'id':record['id'],'frames':len(entries),'sceneChanges':len(manifest['sceneChanges']),'duration':duration,'output':str(out)}))
