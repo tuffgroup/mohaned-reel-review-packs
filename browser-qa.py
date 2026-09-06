@@ -44,7 +44,7 @@ async def main():
    await page.wait_for_function('document.querySelector("video").currentTime > 0.3')
    assert await page.locator('video').evaluate('(v)=>v.videoWidth>0 && !v.error')
    await page.locator('video').evaluate('(v)=>v.pause()')
-   for name in ['Visual Review','Analysis JSON','AI Text']:
+   for name in ['Archived Browser Review','Archived PDF','Analysis JSON','AI Text']:
     link=page.get_by_role('link',name=name,exact=True)
     href=await link.get_attribute('href')
     assert href
