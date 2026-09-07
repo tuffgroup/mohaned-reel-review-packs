@@ -144,6 +144,18 @@
       "sourceVideoSha256": "c7057dfa304eb7fdb32522e8b618a3a2582ddbb8e65f685e1b2dd2acee9a483c",
       "sourceTranscript": "When was the last time you did something for the first time? Before you know it, every day is the same episode. One familiar decision at a time. But there was a time when everything was a premiere. Every block was unexplored. Every evening had a different story. Until one day, the world stopped surprising you. Did life move slower back then, or did tomorrow just feel unwritten?",
       "reusedExistingPack": false
+    },
+    "4521fdfa-8bcd-4327-86b9-457c4cb47ae6": {
+      "status": "Ready",
+      "fingerprint": "dbc7d7d0b8f7d3613053b2ada52cb2027791d626b808d7f8e692650b820a937a",
+      "etag": "\"73351ff5495852bf31918b96fbfde9e4\"",
+      "transcriptHash": "6dceb81d5bba3c36d4be9645e97275ad18c3c8cabb752a203f9f09ea227e61fc",
+      "generatedAt": "2026-09-07T00:19:33.473889Z",
+      "frameCount": 102,
+      "lastVerifiedAt": "2026-09-07T00:19:25.314995+00:00",
+      "sourceVideoSha256": "655073d6880ea539b68202a64df97b004ed91d5fb31319cd1a063f2000efc991",
+      "sourceTranscript": "تعرف لما تسعى لشيء انت تبيه من كل قلبك، وانت قاعد تحاول انك توصل له بس ربي مو كاتب لك الشيء هذا وتلقاك تقول يا رب، انا عارف ان الشيء اللي كتبته لي هو شيء خير، بس ليش ما جاني الشيء الفلاني؟ كثير منا يعتقد ان السعي هو بس انك تسوي الشيء اللي المفروض تسويه عشان توصل للنتيجة اللي تبيها، يعني لما وصلت يحس ان سعيه راح عالفاضي، بس خليني اقول لك شيء، ترى السعي هو نفسه عبادة مو وسيلة بس، يعني حتى لو ما وصلت للنتيجة اللي في بالك، السعي، السعي نفسه أو الشيء اللي سويته عشان توصل للشيء اللي كنت تبغاه لك فيه أجر حتى لو ما انكتب لك الشيء هذا، ما أبيك تفكر بالنتيجة أبداً، النتيجة ما هي بشغلتك لا تفكر فيها أبداً، ركز على الشيء اللي أنت تبغى تسويه، وركز على الخطوات نفسها. أنت مو ملزم أنك تتحكم وأنك تعرف النتيجة، كل اللي عليك تسويه إنك تتحرك بس. أذكر نفسي دايم فيه وأذكر كل اللي حولي، دايم أشغل نفسك ايش الخطوة الجاية، ايش الأشياء اللي أقدر أحسنها في الوضع الحالي عشان يتحسن وضعي، فصدقني أن الاختيارات اللي بتجيك أو النتائج اللي بتجيك من خلال الشيء هذا سواء خير أو شر، هي خير لك في النهاية. هذا الشيء يريحك نفسيا، لأنك مو قاعد تحمل نفسك فوق طاقتك، إنك في النهاية بشر، فكل اللي عليك تسويه أنك تسوي بالأسباب والباقي باذن الله خير، سلام عليكم.",
+      "reusedExistingPack": false
     }
   },
   "lastSuccessfulPollDate": "2026-09-07",
