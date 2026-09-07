@@ -168,6 +168,18 @@
       "sourceVideoSha256": "2c90e52799388e26c917530551bd7e501bc0fcff2de4324bf3f462f24ba2a0e2",
       "sourceTranscript": "Is your routine building your future or just maintaining your past?",
       "reusedExistingPack": false
+    },
+    "d4239d34-bab7-4725-8f6f-63a1b462f75e": {
+      "status": "Ready",
+      "fingerprint": "f582572178359c6000aa2f895cac911a2f8a5bdf2bf77ec30c59a03d1f5f1c63",
+      "etag": "\"e7a9f3f1d728ffe593897d798e440eb2\"",
+      "transcriptHash": "c3c63df1d6e2a4620e1af301a3b0f32d3fda78ce70ec5a4a1b298c964bfa905d",
+      "generatedAt": "2026-09-07T00:55:52.499539Z",
+      "frameCount": 61,
+      "lastVerifiedAt": "2026-09-07T00:55:42.596683+00:00",
+      "sourceVideoSha256": "84a32a8354076b240ffaceb864df48bab14a7c962719d519c30e546da11630c6",
+      "sourceTranscript": "People will come back into your life when they get disappointed by the people that they left you for. The attention faded, the new person disappointed them, the excitement wore off, and it's not always because they finally realized your value. Sometimes, they just realize that the grass wasn't greener. And suddenly, the person they took for granted starts looking really, really good again. But be careful. Missing your comfort is not the same thing as appreciating your worth. Some people come back because they changed. Other people come back because the other option failed. Make sure you know the difference before you open that door again.",
+      "reusedExistingPack": false
     }
   },
   "lastSuccessfulPollDate": "2026-09-07",

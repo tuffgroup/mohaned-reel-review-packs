@@ -1,0 +1,31 @@
+MOHANED REEL REFERENCE LAB
+
+REFERENCE:
+Make sure you know the difference before you open that door again
+
+CREATOR:
+Johnny Persón
+
+DURATION:
+34.791667 seconds
+
+REFERENCE PAGE:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/d4239d34-bab7-4725-8f6f-63a1b462f75e
+
+ORIGINAL VIDEO:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/api/references/d4239d34-bab7-4725-8f6f-63a1b462f75e/video
+
+VISUAL REVIEW PDF:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/d4239d34-bab7-4725-8f6f-63a1b462f75e/review.pdf
+
+ANALYSIS JSON:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/d4239d34-bab7-4725-8f6f-63a1b462f75e/analysis.json
+
+TRANSCRIPT:
+People will come back into your life when they get disappointed by the people that they left you for. The attention faded, the new person disappointed them, the excitement wore off, and it's not always because they finally realized your value. Sometimes, they just realize that the grass wasn't greener. And suddenly, the person they took for granted starts looking really, really good again. But be careful. Missing your comfort is not the same thing as appreciating your worth. Some people come back because they changed. Other people come back because the other option failed. Make sure you know the difference before you open that door again.
+
+TRANSCRIPT TIMING:
+Unavailable; do not infer frame-to-speech alignment
+
+CAPTION:
+Make sure you know the difference before you open that door again
