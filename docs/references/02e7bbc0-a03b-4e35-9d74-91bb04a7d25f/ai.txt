@@ -1,0 +1,31 @@
+MOHANED REEL REFERENCE LAB
+
+REFERENCE:
+yes yes yes and yes!
+
+CREATOR:
+Leo C
+
+DURATION:
+10.875 seconds
+
+REFERENCE PAGE:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f
+
+ORIGINAL VIDEO:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/api/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/video
+
+VISUAL REVIEW PDF:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/review.pdf
+
+ANALYSIS JSON:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/analysis.json
+
+TRANSCRIPT:
+Do I like sleep? Yes. Do I stay up late for no reason? Yes. Do I regret it in the morning? Yes. Will I be doing it again? Yes.
+
+TRANSCRIPT TIMING:
+Unavailable; do not infer frame-to-speech alignment
+
+CAPTION:
+yes yes yes and yes!

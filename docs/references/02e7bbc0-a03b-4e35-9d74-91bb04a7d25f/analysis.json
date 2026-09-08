@@ -1,0 +1,454 @@
+{
+  "schemaVersion": "1.0",
+  "id": "02e7bbc0-a03b-4e35-9d74-91bb04a7d25f",
+  "slug": "02e7bbc0-a03b-4e35-9d74-91bb04a7d25f",
+  "creator": "Leo C",
+  "title": "yes yes yes and yes!",
+  "sourceUrl": "https://www.instagram.com/p/Dc-MjbqjZIs/",
+  "referencePageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f",
+  "videoUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/api/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/video",
+  "reviewHtmlUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/review.html",
+  "reviewPdfUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/review.pdf",
+  "analysisJsonUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/analysis.json",
+  "aiTextUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/ai.txt",
+  "durationSeconds": 10.875,
+  "caption": "yes yes yes and yes!",
+  "transcript": {
+    "text": "Do I like sleep? Yes. Do I stay up late for no reason? Yes. Do I regret it in the morning? Yes. Will I be doing it again? Yes.",
+    "segments": null,
+    "timing": "unavailable"
+  },
+  "frames": [
+    {
+      "timestamp": 0.0,
+      "timestampLabel": "00:00.000",
+      "requestedSampleTimestamps": [
+        0.0
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000000.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 0.25,
+      "timestampLabel": "00:00.250",
+      "requestedSampleTimestamps": [
+        0.25
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000025.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 0.5,
+      "timestampLabel": "00:00.500",
+      "requestedSampleTimestamps": [
+        0.5
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000050.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 0.75,
+      "timestampLabel": "00:00.750",
+      "requestedSampleTimestamps": [
+        0.75
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000075.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 1.0,
+      "timestampLabel": "00:01.000",
+      "requestedSampleTimestamps": [
+        1.0
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000100.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 1.25,
+      "timestampLabel": "00:01.250",
+      "requestedSampleTimestamps": [
+        1.25
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000125.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 1.5,
+      "timestampLabel": "00:01.500",
+      "requestedSampleTimestamps": [
+        1.5
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000150.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 1.75,
+      "timestampLabel": "00:01.750",
+      "requestedSampleTimestamps": [
+        1.75
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000175.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 2.0,
+      "timestampLabel": "00:02.000",
+      "requestedSampleTimestamps": [
+        2.0
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000200.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 2.25,
+      "timestampLabel": "00:02.250",
+      "requestedSampleTimestamps": [
+        2.25
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000225.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 2.5,
+      "timestampLabel": "00:02.500",
+      "requestedSampleTimestamps": [
+        2.5
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000250.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 2.75,
+      "timestampLabel": "00:02.750",
+      "requestedSampleTimestamps": [
+        2.75
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000275.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 3.0,
+      "timestampLabel": "00:03.000",
+      "requestedSampleTimestamps": [
+        3.0
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000300.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 3.25,
+      "timestampLabel": "00:03.250",
+      "requestedSampleTimestamps": [
+        3.25
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000325.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 3.5,
+      "timestampLabel": "00:03.500",
+      "requestedSampleTimestamps": [
+        3.5
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000350.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 3.75,
+      "timestampLabel": "00:03.750",
+      "requestedSampleTimestamps": [
+        3.75
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000375.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 4.0,
+      "timestampLabel": "00:04.000",
+      "requestedSampleTimestamps": [
+        4.0
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000400.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 4.25,
+      "timestampLabel": "00:04.250",
+      "requestedSampleTimestamps": [
+        4.25
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000425.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 4.5,
+      "timestampLabel": "00:04.500",
+      "requestedSampleTimestamps": [
+        4.5
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000450.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 4.75,
+      "timestampLabel": "00:04.750",
+      "requestedSampleTimestamps": [
+        4.75
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000475.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 5.0,
+      "timestampLabel": "00:05.000",
+      "requestedSampleTimestamps": [
+        5.0
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000500.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 5.5,
+      "timestampLabel": "00:05.500",
+      "requestedSampleTimestamps": [
+        5.5
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000550.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 6.0,
+      "timestampLabel": "00:06.000",
+      "requestedSampleTimestamps": [
+        6.0
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000600.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 6.5,
+      "timestampLabel": "00:06.500",
+      "requestedSampleTimestamps": [
+        6.5
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000650.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 7.0,
+      "timestampLabel": "00:07.000",
+      "requestedSampleTimestamps": [
+        7.0
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000700.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 7.5,
+      "timestampLabel": "00:07.500",
+      "requestedSampleTimestamps": [
+        7.5
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000750.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 8.0,
+      "timestampLabel": "00:08.000",
+      "requestedSampleTimestamps": [
+        8.0
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000800.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 8.5,
+      "timestampLabel": "00:08.500",
+      "requestedSampleTimestamps": [
+        8.5
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000850.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 9.0,
+      "timestampLabel": "00:09.000",
+      "requestedSampleTimestamps": [
+        9.0
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000900.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 9.5,
+      "timestampLabel": "00:09.500",
+      "requestedSampleTimestamps": [
+        9.5
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/000950.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 10.0,
+      "timestampLabel": "00:10.000",
+      "requestedSampleTimestamps": [
+        10.0
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/001000.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    },
+    {
+      "timestamp": 10.5,
+      "timestampLabel": "00:10.500",
+      "requestedSampleTimestamps": [
+        10.5
+      ],
+      "imageUrl": "https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/02e7bbc0-a03b-4e35-9d74-91bb04a7d25f/frames/001050.jpg",
+      "transcriptSegment": null,
+      "transcriptTiming": "unavailable",
+      "sceneChange": false,
+      "width": 720,
+      "height": 1280
+    }
+  ],
+  "sceneChanges": [],
+  "sampling": {
+    "first5SecondsInterval": 0.25,
+    "next10SecondsInterval": 0.5,
+    "remainingInterval": 1,
+    "sceneThreshold": 0.3,
+    "deduplication": "Same decoded source frame is included once; scheduled samples snap to the nearest real frame.",
+    "timestampBasis": "Decoded source frame presentation timestamp relative to first frame."
+  },
+  "generatedAt": "2026-09-08T00:22:27.377835Z",
+  "generatorVersion": "1.0",
+  "sourceVideoSha256": "6a0bdc7ed2fa1c826618ba945dff4a896ba09e1007c4e978b7714c2a57c754ef",
+  "limitations": [
+    "No timed transcript was stored; frame-to-speech binding is unavailable."
+  ]
+}

@@ -228,9 +228,21 @@
       "sourceVideoSha256": "4981a8c23baae3e6f5245b9c171b4e5c088f9ce48172d7285d7961cfaaec3136",
       "sourceTranscript": "Protecting your peace isn't always dignified. It's not always about being the bigger person. Sometimes it's about crashing the fuck out and telling somebody to get the fuck out of your face. Being in control of your emotions and being weak are two separate things. If you've already explained to somebody that what they're doing isn't acceptable and they don't listen, you need to know how to explain it in a way they listen. Being unreasonable and knowing how to stand your ground are not the same thing.",
       "reusedExistingPack": false
+    },
+    "02e7bbc0-a03b-4e35-9d74-91bb04a7d25f": {
+      "status": "Ready",
+      "fingerprint": "e7eefd06cc8a129a38f8a91e99d76d748f69158dbb4d33222b4508986edd1cd0",
+      "etag": "\"895edd20a6890d89cb06ec124cfb3323\"",
+      "transcriptHash": "e369186441e3eb9509d899419e82ecffc741f66b7b9f9f6561c4d955fad98be0",
+      "generatedAt": "2026-09-08T00:22:27.377835Z",
+      "frameCount": 32,
+      "lastVerifiedAt": "2026-09-08T00:22:22.762994+00:00",
+      "sourceVideoSha256": "6a0bdc7ed2fa1c826618ba945dff4a896ba09e1007c4e978b7714c2a57c754ef",
+      "sourceTranscript": "Do I like sleep? Yes. Do I stay up late for no reason? Yes. Do I regret it in the morning? Yes. Will I be doing it again? Yes.",
+      "reusedExistingPack": false
     }
   },
-  "lastSuccessfulPollDate": "2026-09-07",
+  "lastSuccessfulPollDate": "2026-09-08",
   "processor": "GitHub Actions standard public runner",
   "autoRetry": "Next scheduled poll"
 }
