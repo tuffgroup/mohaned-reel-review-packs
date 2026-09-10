@@ -276,6 +276,18 @@
       "sourceVideoSha256": "719e750cead390911d26760936088eef738a62670f77f1fc7948d164f1e843a9",
       "sourceTranscript": "The world is a mail. I want the world in my hands. I hate the beach.",
       "reusedExistingPack": false
+    },
+    "673a7155-cfe7-4ef5-81be-c306404cf83b": {
+      "status": "Ready",
+      "fingerprint": "6e5502601d9545915e9dd8018679c08ed36837dafbe2f3966f9e64221ea91d12",
+      "etag": "\"e71a4821568244c8fa1992f9f5dae17d\"",
+      "transcriptHash": "5eb0435adc823cc363fd3df46fad31d8ecfc471b5539e48fe8d30d8e55262d05",
+      "generatedAt": "2026-09-10T05:05:41.915249Z",
+      "frameCount": 70,
+      "lastVerifiedAt": "2026-09-10T05:05:32.999062+00:00",
+      "sourceVideoSha256": "8b696605d668b9c166be1c6806a04caa772bb17477f577fab0cd546426bdd818",
+      "sourceTranscript": "Nobody wants you to know that loneliness is the clearest sign that you have a shot at becoming great. Before a man levels up, everything he has in his life will get ripped from him. That's his relationships, his friends, his comfort, his money, and his old identity, they're all gone. Then the dust settles and it's just him and his mission, staring each other down. And most men quit here. They fold into nihilism, but an upgrade requires an exile. Loneliness is the tax that men pay for their own metamorphosis. If you're alone right now, that's a great sign. You're finally climbing to an altitude where mediocrity cannot breathe.",
+      "reusedExistingPack": false
     }
   },
   "lastSuccessfulPollDate": "2026-09-10",
