@@ -288,6 +288,18 @@
       "sourceVideoSha256": "8b696605d668b9c166be1c6806a04caa772bb17477f577fab0cd546426bdd818",
       "sourceTranscript": "Nobody wants you to know that loneliness is the clearest sign that you have a shot at becoming great. Before a man levels up, everything he has in his life will get ripped from him. That's his relationships, his friends, his comfort, his money, and his old identity, they're all gone. Then the dust settles and it's just him and his mission, staring each other down. And most men quit here. They fold into nihilism, but an upgrade requires an exile. Loneliness is the tax that men pay for their own metamorphosis. If you're alone right now, that's a great sign. You're finally climbing to an altitude where mediocrity cannot breathe.",
       "reusedExistingPack": false
+    },
+    "f30324c7-ddc3-47cf-b6ae-3d1991debb71": {
+      "status": "Ready",
+      "fingerprint": "62e6920c4aff1c30fc2bfef36f18f9f5ea60c49e2bbacbedf24516e9d33af51a",
+      "etag": "\"c15d3fc35392cfdfe45990b18109ae42\"",
+      "transcriptHash": "e9235ced8f19a849ae9f799b3817635e5e21b01a9a8ecf6fcd0134b651a49da6",
+      "generatedAt": "2026-09-10T05:17:12.519641Z",
+      "frameCount": 64,
+      "lastVerifiedAt": "2026-09-10T05:17:04.780789+00:00",
+      "sourceVideoSha256": "d3c41f307fcab1f9c0456bc73d8460ae6ffe66d086a132754cfc23ed5c520f52",
+      "sourceTranscript": "The most dangerous person in the world is the person who is not scared of being alone. You can't control someone who's okay with being alone. You can't threaten to leave them. You can't pressure them into a bad deal. You can't make them fall for a fake friendship. They are simply not scared of walking away. Some people are terrified of being alone, and because of that they end up tolerating a bunch of shit. But the moment you're actually fine with being alone, nobody can use that fear against you. That is real freedom.",
+      "reusedExistingPack": false
     }
   },
   "lastSuccessfulPollDate": "2026-09-10",
