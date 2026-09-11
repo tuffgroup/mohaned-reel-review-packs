@@ -1,0 +1,31 @@
+MOHANED REEL REFERENCE LAB
+
+REFERENCE:
+change the plan, not the goal
+
+CREATOR:
+Party Of 1 Podcast
+
+DURATION:
+19.933333 seconds
+
+REFERENCE PAGE:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/fda8f278-21bb-476f-bcba-f2c75c5aa4c2
+
+ORIGINAL VIDEO:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/api/references/fda8f278-21bb-476f-bcba-f2c75c5aa4c2/video
+
+VISUAL REVIEW PDF:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/fda8f278-21bb-476f-bcba-f2c75c5aa4c2/review.pdf
+
+ANALYSIS JSON:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/fda8f278-21bb-476f-bcba-f2c75c5aa4c2/analysis.json
+
+TRANSCRIPT:
+Make the goal smaller. If you keep quitting, just make it more achievable. Don't quit the dream. If you can't workout for an hour, workout for 20 minutes. If you can't save $500, save $50. Do not make it more than it needs to be, okay? Get to work.
+
+TRANSCRIPT TIMING:
+Unavailable; do not infer frame-to-speech alignment
+
+CAPTION:
+change the plan, not the goal
