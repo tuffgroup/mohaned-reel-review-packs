@@ -444,6 +444,18 @@
       "sourceVideoSha256": "337a83e18f37a44c28a1692a1a814bca052a4faad89e51ba371d6822a7909d6d",
       "sourceTranscript": "I don't need revenge. I need distance. See, revenge just keeps me connected to the very thing I'm trying to heal from but distance that allows me to breathe. Allows God to handle it. Plus, one of the hardest pills for some people to swallow is realizing that their actions no longer control your emotions. So while in theory revenge may be sweet, peace is priceless.",
       "reusedExistingPack": false
+    },
+    "960ef0a7-9d1a-4ba4-948b-5c73ad963d40": {
+      "status": "Ready",
+      "fingerprint": "323992287cbc95de213e732f80f9b5eeda4facef5e087f8c0f0039d65d57f243",
+      "etag": "\"fcb2319cabe717fb2289ef357c3e0bbd\"",
+      "transcriptHash": "178f4d92ab6f20539bb96d384c4411dd0f6d83e4cf9ce420ab9530a58ef45e57",
+      "generatedAt": "2026-09-12T15:21:34.179094Z",
+      "frameCount": 76,
+      "lastVerifiedAt": "2026-09-12T15:21:23.055360+00:00",
+      "sourceVideoSha256": "3be60d06b3e933a95d4f6ed140506dbe4909af741af49b746da2682db510eed1",
+      "sourceTranscript": "One of the best skills in this world that you can learn is the ability to reset quick. Had an awkward conversation, move on. You had a bad day, start fresh tomorrow. Psychologists call this rumination, and it stops so many people from achieving what they want to in this life. Life is not going to get better because it gets easier, or because things stop happening. Life gets better when you stop giving these bad things more time than they deserve. Most of the time it's not even the problem that's holding us back, it's how long we ruminate on it for. If you can't reset fast, your brain continues to scan the environment for more negative things. You have one bad thought and it turns into anxiety for the next week or month. You will never be able to control the things that happen to you. Life is never just going to get easier, but you can control how long and how much you let those things affect you, and that will change everything.",
+      "reusedExistingPack": false
     }
   },
   "lastSuccessfulPollDate": "2026-09-12",
