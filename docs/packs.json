@@ -480,6 +480,18 @@
       "sourceVideoSha256": "f26eebb257eb02f24bcf2393fac8a98a09a297d83f7da5ca3f7f34a5dd9b244e",
       "sourceTranscript": "I might just be the worst person to text. And it's not that I don't have enough time because honestly, the truth is, I actually have a lot of time. No, it's much deeper than that. I just don't want to respond.",
       "reusedExistingPack": false
+    },
+    "3cfd8798-6346-4e3e-ba87-2320c1a1f81f": {
+      "status": "Ready",
+      "fingerprint": "f0c3327496b17de5ee6f9c1e8a406415693a2e8153af3bd495cc0077f5358b9f",
+      "etag": "\"5ad0ccff527a6897e0216b986abb6e34\"",
+      "transcriptHash": "15663572252136188d0db333d48f205dc796dc389f55c7872bbf201a38f1b348",
+      "generatedAt": "2026-09-14T05:00:12.494911Z",
+      "frameCount": 86,
+      "lastVerifiedAt": "2026-09-14T05:00:03.304288+00:00",
+      "sourceVideoSha256": "19a417ee1682126071af0e64f0fd51612ead8e0f4d2b1708d36a364bc1acb6c6",
+      "sourceTranscript": "Why the hell is everybody suddenly posting these Jarvis clips? Well, it's because you can now turn your computer into a real-life Jarvis for completely free. Here's how to build your own in the next 30 seconds. So first, just start by copying this GitHub project link and then open up Claude code and paste it in and tell it to set this up on my machine. Now Claude code will do everything for you. It downloads it and installs everything that it needs. Now after that, grab your voice key from 11 Labs, find a voice that you actually like, and tell Claude to just plug it in for you. And now from there, you just connect your tools. So any of your calendars, your inbox, or maybe revenue, and it stops opening apps and it starts briefing you and doing things for you instead. few items. Uh and a quieter morning. The call at 1:30 collides with the accelerator sync and you have not yet replied to it. Now this is an open-source project so you actually own it and nobody can price you out of it later. For the GitHub project link and the full setup guide, just comment need and I'll send it over to you.",
+      "reusedExistingPack": false
     }
   },
   "lastSuccessfulPollDate": "2026-09-14",

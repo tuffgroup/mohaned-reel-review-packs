@@ -1,0 +1,41 @@
+MOHANED REEL REFERENCE LAB
+
+REFERENCE:
+Comment NEED if you want the GitHub link and the full setup guide and I’ll send it to you 🎁
+
+CREATOR:
+Nick Puruczky | AI Automation
+
+DURATION:
+54.933333 seconds
+
+REFERENCE PAGE:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/3cfd8798-6346-4e3e-ba87-2320c1a1f81f
+
+ORIGINAL VIDEO:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/api/references/3cfd8798-6346-4e3e-ba87-2320c1a1f81f/video
+
+VISUAL REVIEW PDF:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/3cfd8798-6346-4e3e-ba87-2320c1a1f81f/review.pdf
+
+ANALYSIS JSON:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/3cfd8798-6346-4e3e-ba87-2320c1a1f81f/analysis.json
+
+TRANSCRIPT:
+Why the hell is everybody suddenly posting these Jarvis clips? Well, it's because you can now turn your computer into a real-life Jarvis for completely free. Here's how to build your own in the next 30 seconds. So first, just start by copying this GitHub project link and then open up Claude code and paste it in and tell it to set this up on my machine. Now Claude code will do everything for you. It downloads it and installs everything that it needs. Now after that, grab your voice key from 11 Labs, find a voice that you actually like, and tell Claude to just plug it in for you. And now from there, you just connect your tools. So any of your calendars, your inbox, or maybe revenue, and it stops opening apps and it starts briefing you and doing things for you instead. few items. Uh and a quieter morning. The call at 1:30 collides with the accelerator sync and you have not yet replied to it. Now this is an open-source project so you actually own it and nobody can price you out of it later. For the GitHub project link and the full setup guide, just comment need and I'll send it over to you.
+
+TRANSCRIPT TIMING:
+Unavailable; do not infer frame-to-speech alignment
+
+CAPTION:
+Comment NEED if you want the GitHub link and the full setup guide and I’ll send it to you 🎁
+
+Everyone’s posting these Jarvis clips right now, so here’s how to build your own AI assistant on your computer for free.
+
+You copy the open source *GitHub project* link, paste it into *Claude Code*, and tell it to set this up on my machine. It installs everything itself.
+
+Then you add your *ElevenLabs* voice key and connect your calendar, inbox and revenue, and it stops opening apps and starts briefing you.
+
+It’s open source, so you actually own your *personal AI assistant* and nobody can price you out of it later.
+
+#aiassistant #claudecode #aitools #onlinebusiness #aiautomation
