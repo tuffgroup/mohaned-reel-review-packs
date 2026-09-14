@@ -1,0 +1,31 @@
+MOHANED REEL REFERENCE LAB
+
+REFERENCE:
+I have the time to text back. Unfortunately, that was never the problem 😂 #texting #text #visualstorytelling #cinematic
+
+CREATOR:
+Josh Diaz
+
+DURATION:
+21.229563 seconds
+
+REFERENCE PAGE:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/ef0f4174-b8b2-4455-a3eb-df24d6ebb3e1
+
+ORIGINAL VIDEO:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/api/references/ef0f4174-b8b2-4455-a3eb-df24d6ebb3e1/video
+
+VISUAL REVIEW PDF:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/ef0f4174-b8b2-4455-a3eb-df24d6ebb3e1/review.pdf
+
+ANALYSIS JSON:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/ef0f4174-b8b2-4455-a3eb-df24d6ebb3e1/analysis.json
+
+TRANSCRIPT:
+I might just be the worst person to text. And it's not that I don't have enough time because honestly, the truth is, I actually have a lot of time. No, it's much deeper than that. I just don't want to respond.
+
+TRANSCRIPT TIMING:
+Unavailable; do not infer frame-to-speech alignment
+
+CAPTION:
+I have the time to text back. Unfortunately, that was never the problem 😂 #texting #text #visualstorytelling #cinematic
