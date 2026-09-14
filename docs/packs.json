@@ -492,6 +492,18 @@
       "sourceVideoSha256": "19a417ee1682126071af0e64f0fd51612ead8e0f4d2b1708d36a364bc1acb6c6",
       "sourceTranscript": "Why the hell is everybody suddenly posting these Jarvis clips? Well, it's because you can now turn your computer into a real-life Jarvis for completely free. Here's how to build your own in the next 30 seconds. So first, just start by copying this GitHub project link and then open up Claude code and paste it in and tell it to set this up on my machine. Now Claude code will do everything for you. It downloads it and installs everything that it needs. Now after that, grab your voice key from 11 Labs, find a voice that you actually like, and tell Claude to just plug it in for you. And now from there, you just connect your tools. So any of your calendars, your inbox, or maybe revenue, and it stops opening apps and it starts briefing you and doing things for you instead. few items. Uh and a quieter morning. The call at 1:30 collides with the accelerator sync and you have not yet replied to it. Now this is an open-source project so you actually own it and nobody can price you out of it later. For the GitHub project link and the full setup guide, just comment need and I'll send it over to you.",
       "reusedExistingPack": false
+    },
+    "3332ada6-e602-4e3d-8edd-e734e02e2d04": {
+      "status": "Ready",
+      "fingerprint": "3940da6ac3bb95ddc56b49d64bdc25ec4a07dfaf857826ec796d319044719a37",
+      "etag": "\"bfae74b00498bb62250c817d83d82acb\"",
+      "transcriptHash": "cefc4a99f3405110edbc23cd55c62c4d4bded4ba7403c1870a9b8ec9dc4fd18f",
+      "generatedAt": "2026-09-14T20:47:03.118911Z",
+      "frameCount": 54,
+      "lastVerifiedAt": "2026-09-14T20:46:59.056154+00:00",
+      "sourceVideoSha256": "8f4c44045a3e17d307320967d4f227e24854edaa207fd00e0312a415c8350878",
+      "sourceTranscript": "One of the best skills you could ever learn is to figure out how to be alone without feeling lonely at all. Without needing any validation, any attention from others. Without needing anything. The only person and the only thing you really need is you, is yourself. You need to grow finding peace. It's not easy, but you can absolutely do it and you can achieve this state of mind.",
+      "reusedExistingPack": false
     }
   },
   "lastSuccessfulPollDate": "2026-09-14",
