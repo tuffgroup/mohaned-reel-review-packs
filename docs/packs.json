@@ -516,6 +516,18 @@
       "sourceVideoSha256": "b001de8de8ab45595703cb46c45fd4a3ec62f4942abfd9107bc9fcd763d681a1",
       "sourceTranscript": "I think one of the hardest things about being a creative is actually finding time to create for ourselves, not for a client, not for a brand, and not because someone else paid us to, just for ourselves, because eventually, creativity becomes our livelihood. We spend our days shooting for other people, editing other people's ideas, and bringing someone else's vision to life, and there's nothing wrong with that. I mean, that's a dream, right? To make a living off what we love. But sometimes, we get so caught up in making a living off our own creativity that we forget to create just for the love of creating. The passion projects get pushed back. The ideas just end up staying in our heads. The stories we want to tell keep getting postponed, and we end up telling ourselves, \"I'll get it done when I have more time.\" But the truth is, there will always be another client. There will always be another project to shoot. There will always be another brand to shoot for, and there will always be another deadline, and if we're not careful, we can end up spending our time creating for someone else and lose the joy of creating something for ourselves. So, maybe those personal projects don't have to make money, maybe they don't need millions of views, maybe they don't even need to be perfect, maybe they're just reminders that before our creativity became our job, it was something that belonged to us, something that we did because we had an idea and we wanted to see it come to life. We wanted to see it become something meaningful. We just wanted to see it exist. So, it's okay to make time for things that don't pay. It's okay to create something that nobody asks for, and it's more than okay to step away from the work and make something that remind us of why we started creating in the first place, because we shouldn't spend our whole lives creating something beautiful for everyone else and end up forgetting to make something for ourselves. So, yeah. Peace.",
       "reusedExistingPack": false
+    },
+    "557d345f-f612-423b-8f13-04221042c990": {
+      "status": "Ready",
+      "fingerprint": "6b8272f8f780098212fc06bbf8d4da951c925c1866bac7f1b2f5d6c774e9235c",
+      "etag": "\"e912a0e3dae80c425743c50c109630e8\"",
+      "transcriptHash": "6d9695b0f6f0de8c737c15a199b1658001af6e4ef0d756109efffbd0c69ad4c9",
+      "generatedAt": "2026-09-15T21:24:57.204967Z",
+      "frameCount": 69,
+      "lastVerifiedAt": "2026-09-15T21:24:51.771509+00:00",
+      "sourceVideoSha256": "bb89f3f00d97f7b340d10c27c3777bd4af91861156df0452f16ab2ff4d114282",
+      "sourceTranscript": null,
+      "reusedExistingPack": false
     }
   },
   "lastSuccessfulPollDate": "2026-09-15",
