@@ -552,6 +552,18 @@
       "sourceVideoSha256": "8da323ed35c31831966f0961625b8a9105852d1deffb41f1333bd7beaf60281d",
       "sourceTranscript": "And the beautiful thing about mistakes is, it's okay for people to see you make a mistake, just don't never let a motherfucker see you quit. You going to watch me make a mistake but you ain't going to never watch me quit.",
       "reusedExistingPack": false
+    },
+    "b39b169f-f97b-46be-b323-cb61728aeea1": {
+      "status": "Ready",
+      "fingerprint": "b2fb37e6afb865ee315b59c8efd716d182380c1f97c51471746b1f0d1c8d6dff",
+      "etag": "\"d5fc7f9962b257a8ff9d8a2267de7891\"",
+      "transcriptHash": "0738792b16c817cf08a847b8952c7fe4edbc974ca7acc99ad512212d96093d31",
+      "generatedAt": "2026-09-19T17:54:09.501625Z",
+      "frameCount": 96,
+      "lastVerifiedAt": "2026-09-19T17:54:02.287129+00:00",
+      "sourceVideoSha256": "9f3b546961f6ce1f1d48786f4914d7fb6d11687f34097c9fc2a2b86c6c096015",
+      "sourceTranscript": "There's about to be three types of people and two of them are already losing. This is in the AI era. The first type, they reject it all. They call themselves the purists. These are the ones who despise ChatGPT, they say it's the devil, so on and so forth. The second type hands their entire brain over. These are the optimizers. They want to outsource every decision, they want to automate, they want every opinion coming from the machine, and it's wrong. You've got one scared of the future, and you've got one addicted to it. Both of them stopped using their brains. The third type is the one that nobody's talking about, and this is what you have to do if you want to win. You pick up the machine like it's the tool, and you keep your soul as the operator. Look, like I built an engine that puts out more content than a team of 30, but it's all the backend stuff, the posting, the distribution. I'm still the one driving the ship. You're not supposed to ask yourself, \"Do I use AI? or do I refuse it?\" The question is, when the tool can do anything, are you still somebody?",
+      "reusedExistingPack": false
     }
   },
   "lastSuccessfulPollDate": "2026-09-19",

@@ -1,0 +1,37 @@
+MOHANED REEL REFERENCE LAB
+
+REFERENCE:
+Most people will lose the AI war before it starts.
+
+CREATOR:
+Robert Oliver
+
+DURATION:
+49.591258 seconds
+
+REFERENCE PAGE:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/b39b169f-f97b-46be-b323-cb61728aeea1
+
+ORIGINAL VIDEO:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/api/references/b39b169f-f97b-46be-b323-cb61728aeea1/video
+
+VISUAL REVIEW PDF:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/b39b169f-f97b-46be-b323-cb61728aeea1/review.pdf
+
+ANALYSIS JSON:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/b39b169f-f97b-46be-b323-cb61728aeea1/analysis.json
+
+TRANSCRIPT:
+There's about to be three types of people and two of them are already losing. This is in the AI era. The first type, they reject it all. They call themselves the purists. These are the ones who despise ChatGPT, they say it's the devil, so on and so forth. The second type hands their entire brain over. These are the optimizers. They want to outsource every decision, they want to automate, they want every opinion coming from the machine, and it's wrong. You've got one scared of the future, and you've got one addicted to it. Both of them stopped using their brains. The third type is the one that nobody's talking about, and this is what you have to do if you want to win. You pick up the machine like it's the tool, and you keep your soul as the operator. Look, like I built an engine that puts out more content than a team of 30, but it's all the backend stuff, the posting, the distribution. I'm still the one driving the ship. You're not supposed to ask yourself, "Do I use AI? or do I refuse it?" The question is, when the tool can do anything, are you still somebody?
+
+TRANSCRIPT TIMING:
+Unavailable; do not infer frame-to-speech alignment
+
+CAPTION:
+Most people will lose the AI war before it starts.
+
+Two failure modes are already spreading. One person runs from the machine out of fear. Another hands it their entire identity and calls it productivity.
+
+Both outcomes look different on the surface. Both end the same way: a person who stopped existing as someone worth listening to.
+
+The tool is not the threat. Forgetting who holds it is.
