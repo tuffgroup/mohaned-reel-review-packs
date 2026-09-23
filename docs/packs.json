@@ -624,6 +624,18 @@
       "sourceVideoSha256": "99d816cb0c2983ea3824f9b803d5fc36676a8a50625de773b02bc5c39b0d3ffc",
       "sourceTranscript": null,
       "reusedExistingPack": false
+    },
+    "d96ddc19-02bd-4fcd-8f1b-bcc8675ed534": {
+      "status": "Ready",
+      "fingerprint": "4ee231c492dbb8e8925fb3e8a00871f55ff06d4a705bac504d10ddb569e824f1",
+      "etag": "\"6ee5d92694a087ccc700ad9e985ac839\"",
+      "transcriptHash": "6e160bddc78c64669cdbbb99e3e798e35cbf586964fcf871f5d4361a8035f11c",
+      "generatedAt": "2026-09-23T12:08:57.978001Z",
+      "frameCount": 32,
+      "lastVerifiedAt": "2026-09-23T12:08:53.349487+00:00",
+      "sourceVideoSha256": "e6d6033c50b7e0c65cffaa99e25041f33bc748111709c8e7cfeb1e852c74676a",
+      "sourceTranscript": "Take me to the moon where we both fell in love.",
+      "reusedExistingPack": false
     }
   },
   "lastSuccessfulPollDate": "2026-09-23",

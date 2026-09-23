@@ -1,0 +1,31 @@
+MOHANED REEL REFERENCE LAB
+
+REFERENCE:
+Quit the 9-5 to do a 9-9.
+
+CREATOR:
+brady_fit.05
+
+DURATION:
+10.666667 seconds
+
+REFERENCE PAGE:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/d96ddc19-02bd-4fcd-8f1b-bcc8675ed534
+
+ORIGINAL VIDEO:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/api/references/d96ddc19-02bd-4fcd-8f1b-bcc8675ed534/video
+
+VISUAL REVIEW PDF:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/d96ddc19-02bd-4fcd-8f1b-bcc8675ed534/review.pdf
+
+ANALYSIS JSON:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/d96ddc19-02bd-4fcd-8f1b-bcc8675ed534/analysis.json
+
+TRANSCRIPT:
+Take me to the moon where we both fell in love.
+
+TRANSCRIPT TIMING:
+Unavailable; do not infer frame-to-speech alignment
+
+CAPTION:
+Quit the 9-5 to do a 9-9.
