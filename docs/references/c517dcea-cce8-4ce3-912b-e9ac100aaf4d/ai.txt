@@ -1,0 +1,31 @@
+MOHANED REEL REFERENCE LAB
+
+REFERENCE:
+grind
+
+CREATOR:
+Giuseppe Gilardi
+
+DURATION:
+9.366667 seconds
+
+REFERENCE PAGE:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/c517dcea-cce8-4ce3-912b-e9ac100aaf4d
+
+ORIGINAL VIDEO:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/api/references/c517dcea-cce8-4ce3-912b-e9ac100aaf4d/video
+
+VISUAL REVIEW PDF:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/c517dcea-cce8-4ce3-912b-e9ac100aaf4d/review.pdf
+
+ANALYSIS JSON:
+https://mohaned-reel-reference-lab.blsi.chatgpt.site/references/c517dcea-cce8-4ce3-912b-e9ac100aaf4d/analysis.json
+
+TRANSCRIPT:
+Not available
+
+TRANSCRIPT TIMING:
+Unavailable; do not infer frame-to-speech alignment
+
+CAPTION:
+grind

@@ -612,6 +612,18 @@
       "sourceVideoSha256": "d349de7357f85c77aead589cf54660d50fa6a141110b33e7e7a8c06438cd23a0",
       "sourceTranscript": "The more you grow, the less you want. Not less ambition, but less clutter, less noise, less distraction. The things that once seemed urgent, the possessions, the endless chasing, suddenly feel heavy, almost meaningless. You begin to crave simplicity, quiet mornings, gentle routines, moments that feed the soul, not the ego. And then you realize, real wealth has nothing to do with what you hold. It's the peace you carry inside.",
       "reusedExistingPack": false
+    },
+    "c517dcea-cce8-4ce3-912b-e9ac100aaf4d": {
+      "status": "Ready",
+      "fingerprint": "832e0181db48c87342e040cd194864b0ae9264a4c54fecbd8beebe5ad71c1706",
+      "etag": "\"afca45ef9d8e7221f7c20032aaa9a28c\"",
+      "transcriptHash": "6d9695b0f6f0de8c737c15a199b1658001af6e4ef0d756109efffbd0c69ad4c9",
+      "generatedAt": "2026-09-23T07:06:38.371794Z",
+      "frameCount": 29,
+      "lastVerifiedAt": "2026-09-23T07:06:34.561514+00:00",
+      "sourceVideoSha256": "99d816cb0c2983ea3824f9b803d5fc36676a8a50625de773b02bc5c39b0d3ffc",
+      "sourceTranscript": null,
+      "reusedExistingPack": false
     }
   },
   "lastSuccessfulPollDate": "2026-09-23",
