@@ -636,6 +636,18 @@
       "sourceVideoSha256": "e6d6033c50b7e0c65cffaa99e25041f33bc748111709c8e7cfeb1e852c74676a",
       "sourceTranscript": "Take me to the moon where we both fell in love.",
       "reusedExistingPack": false
+    },
+    "44a4edba-5116-4826-8ad9-6307f59febbe": {
+      "status": "Ready",
+      "fingerprint": "558e3962035196ca27a31cbeab9ff45c6ac441fe9068f2eed373f29a832c4bae",
+      "etag": "\"878eeb819aa1f69022a58274096f59ec\"",
+      "transcriptHash": "9ece1ecfd72f8f3cf7674732ca8879197ad0237607a38acbe60266000b9155cb",
+      "generatedAt": "2026-09-25T02:18:39.362625Z",
+      "frameCount": 78,
+      "lastVerifiedAt": "2026-09-25T02:18:25.959079+00:00",
+      "sourceVideoSha256": "782f517514ed7c71f404bcbd36d21689cdc866d7e0e3a7ee9d742e14369d9962",
+      "sourceTranscript": "Did you fucking forget? Did you forget that this is everything you ever wanted? Did you forget that everything is falling into place? Why are you all of a sudden questioning why this is happening? You asked for this. This is the life you wanted. You've been putting in the work. You've been saying this for years. You've been journaling about it, you've been working at it every day. You've been doing this is what you wanted. Why are you so stressed now? You wanted more opportunities, so you have more responsibility. You wanted to be stronger, so you're being put through harder trials and tribulations. This is exactly what you wanted. You are being built into the person you always meant to be. Lock the fuck in. Be him. This is it. This is the moment you kept talking about and telling your friends about and everyone was going to Everyone was going to understand about you. Here it is. Prove that this is what you wanted. Show them who you are.",
+      "reusedExistingPack": false
     }
   },
   "lastSuccessfulPollDate": "2026-09-25",
