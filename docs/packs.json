@@ -672,6 +672,18 @@
       "sourceVideoSha256": "cdae464208d272fa8649e24cb4ce1e603384bdce30e84a9359f48228ed840696",
       "sourceTranscript": "Hello world. Hi. Wait, let me show you how I did it. First, I hang the carpet using a C-stand. Then, I clip an Amaran Ace 25c above it to bring out the pattern. Second, another Ace 25c goes behind me at around 45 degrees, just to add a little bit of a rim light on my face. Quick tip: make sure you have a good amount of distance between you and the carpet, like around 1 km away. And lastly, my main light, Ray 360c, paired with an Amaran Light Dome, to light up my beautiful face. Still confused? Follow for more content like this. Comment \"carpet\", I'll send a full guide and the camera settings.",
       "reusedExistingPack": false
+    },
+    "21827a00-6e6a-415a-a742-de09f93c40a8": {
+      "status": "Ready",
+      "fingerprint": "4e34bcfda020e33d0a3ddea950f3d9ff67105fb134b58ca0994d033afd04d373",
+      "etag": "\"f4c10946479dee6dbf061c584b9263c4\"",
+      "transcriptHash": "d654831ac6e508d18ea58b58ae2d402936e4a497946c260af15dfee2aa060e9f",
+      "generatedAt": "2026-09-26T21:54:39.282178Z",
+      "frameCount": 72,
+      "lastVerifiedAt": "2026-09-26T21:54:29.949657+00:00",
+      "sourceVideoSha256": "22be5006ff1d38bb1cb742e720bc385a38cfb04c756ace1c70008e5c1430066f",
+      "sourceTranscript": "A man can get so used to being alone that he starts calling isolation peace. I understand why. People can disappoint you, relationships get complicated, letting somebody close gives them the opportunity to hurt you, so you start cutting things out. Less drama, less disappointment, fewer people to answer to. And for a while, that really does feel peaceful, because peace and protection can look a lot alike. There's nothing wrong with learning how to be alone. I think every man should be comfortable there. But I also know how easy it is to build walls and call them boundaries. To stop letting people in and call it maturity. Eventually, you have to ask yourself whether your life is actually peaceful or whether you've just removed everyone capable of disturbing it, because nothing can hurt you behind a wall, but love can't get through either.",
+      "reusedExistingPack": false
     }
   },
   "lastSuccessfulPollDate": "2026-09-26",
