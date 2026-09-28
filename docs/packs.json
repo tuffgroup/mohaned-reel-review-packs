@@ -684,6 +684,18 @@
       "sourceVideoSha256": "22be5006ff1d38bb1cb742e720bc385a38cfb04c756ace1c70008e5c1430066f",
       "sourceTranscript": "A man can get so used to being alone that he starts calling isolation peace. I understand why. People can disappoint you, relationships get complicated, letting somebody close gives them the opportunity to hurt you, so you start cutting things out. Less drama, less disappointment, fewer people to answer to. And for a while, that really does feel peaceful, because peace and protection can look a lot alike. There's nothing wrong with learning how to be alone. I think every man should be comfortable there. But I also know how easy it is to build walls and call them boundaries. To stop letting people in and call it maturity. Eventually, you have to ask yourself whether your life is actually peaceful or whether you've just removed everyone capable of disturbing it, because nothing can hurt you behind a wall, but love can't get through either.",
       "reusedExistingPack": false
+    },
+    "1b5d46c1-7931-4192-bdf1-1c403797b79c": {
+      "status": "Ready",
+      "fingerprint": "bf09e75945df0d1fe4f22f1cae20e164356bf77357919ed7239edc0de50e77ee",
+      "etag": "\"fc2285d1a6111f1991b30df2e59074fa\"",
+      "transcriptHash": "a5b18f33e857c96a70d5a0cdea42c125dc288b6edfdae0c280365f2d37a1490e",
+      "generatedAt": "2026-09-28T11:07:23.091510Z",
+      "frameCount": 36,
+      "lastVerifiedAt": "2026-09-28T11:07:19.216799+00:00",
+      "sourceVideoSha256": "956ff4a5bc3d2c85dda0333b34d9931d298948abf917e106b3a2b9fc53604341",
+      "sourceTranscript": "Come on now. Yo. Your anxiety levels fit the point. Well, I've been itching to squeeze. Me and the bottle got thicket and thieves. They made me feel like I was going",
+      "reusedExistingPack": false
     }
   },
   "lastSuccessfulPollDate": "2026-09-28",
